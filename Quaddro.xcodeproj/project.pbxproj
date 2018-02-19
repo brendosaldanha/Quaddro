@@ -12,6 +12,9 @@
 		99125454203B8F1100EFF732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99125452203B8F1100EFF732 /* Main.storyboard */; };
 		99125456203B8F1100EFF732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99125455203B8F1100EFF732 /* Assets.xcassets */; };
 		99125459203B8F1100EFF732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99125457203B8F1100EFF732 /* LaunchScreen.storyboard */; };
+		99125463203B8F4000EFF732 /* quaddro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99125460203B8F4000EFF732 /* quaddro@2x.png */; };
+		99125464203B8F4000EFF732 /* quaddro@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99125461203B8F4000EFF732 /* quaddro@3x.png */; };
+		99125465203B8F4000EFF732 /* quaddro.png in Resources */ = {isa = PBXBuildFile; fileRef = 99125462203B8F4000EFF732 /* quaddro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		99125455203B8F1100EFF732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99125458203B8F1100EFF732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9912545A203B8F1100EFF732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99125460203B8F4000EFF732 /* quaddro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quaddro@2x.png"; sourceTree = "<group>"; };
+		99125461203B8F4000EFF732 /* quaddro@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quaddro@3x.png"; sourceTree = "<group>"; };
+		99125462203B8F4000EFF732 /* quaddro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quaddro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 			children = (
 				9912544D203B8F1100EFF732 /* Quaddro */,
 				9912544C203B8F1100EFF732 /* Products */,
+				99125462203B8F4000EFF732 /* quaddro.png */,
+				99125460203B8F4000EFF732 /* quaddro@2x.png */,
+				99125461203B8F4000EFF732 /* quaddro@3x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99125465203B8F4000EFF732 /* quaddro.png in Resources */,
 				99125459203B8F1100EFF732 /* LaunchScreen.storyboard in Resources */,
 				99125456203B8F1100EFF732 /* Assets.xcassets in Resources */,
 				99125454203B8F1100EFF732 /* Main.storyboard in Resources */,
+				99125464203B8F4000EFF732 /* quaddro@3x.png in Resources */,
+				99125463203B8F4000EFF732 /* quaddro@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
